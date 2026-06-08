@@ -1,0 +1,10 @@
+{
+  "approved": false,
+  "issues": [
+    {
+      "severity": "medium",
+      "comment": "Builder must explicitly preserve next_url behavior before changing redirect."
+    }
+  ],
+  "recommendation": "Revise implementation plan to preserve next_url/return_to if the app supports it."
+}

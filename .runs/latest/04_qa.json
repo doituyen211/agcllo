@@ -1,0 +1,14 @@
+{
+  "test_checklist": [
+    "Login with valid credentials redirects to dashboard.",
+    "Invalid login still shows validation error.",
+    "Existing session behavior remains unchanged.",
+    "next_url behavior is preserved if supported."
+  ],
+  "edge_cases": [
+    "User already authenticated.",
+    "Missing or malformed next_url.",
+    "Inactive user account."
+  ],
+  "status": "not_ready"
+}

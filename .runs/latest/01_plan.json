@@ -1,0 +1,17 @@
+{
+  "summary": "Fix the login success redirect target.",
+  "files_to_inspect": [
+    "src/auth/login.py",
+    "tests/test_login.py"
+  ],
+  "steps": [
+    "Inspect the login success handler.",
+    "Find the current redirect target.",
+    "Change redirect target to dashboard.",
+    "Add or update a regression test."
+  ],
+  "risks": [
+    "Auth flow may have next_url or return_to behavior.",
+    "Changing redirect logic may affect existing tests."
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "summary": "Proposed implementation for login redirect fix.",
+  "files_changed": [
+    "src/auth/login.py",
+    "tests/test_login.py"
+  ],
+  "implementation_notes": [
+    "Update login success redirect target from '/' to '/dashboard'.",
+    "Preserve existing next_url behavior if present.",
+    "Add test coverage for successful login redirect."
+  ],
+  "tests_to_run": [
+    "pytest tests/test_login.py"
+  ]
+}
